@@ -25,8 +25,9 @@
     margin: 1.5rem;
     width: 100vw;
     height: 50p ;
-    text-align: left;
+    text-align: center;
     max-width: 80%;
+    
 }
 .skillbar{
     display: flex;
@@ -34,17 +35,35 @@
     margin: 1rem 2rem;
     padding: 1.5;
     border-radius: 0.5rem;
-    background: rgb(50, 50, 50);
+    
 }
 .skillbarimg{
     object-fit: cover;
     height: 3rem;
     width: 3rem;
     margin-right: 2rem;
+    
 }
 .skillbartext p{
     font-size: 0.9rem;
     font-weight: 200;
+    text-align: center;
+   
+}
+.skillbartext h2{
+    text-align: center;
+    
+}
+.skillcards{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    border: 0.5px solid #d1d1d1;
+    border-radius: 5px;
 }
 @media screen and (max-width:480px) {
     .skillbartext p{
@@ -56,6 +75,7 @@
     }
     .skillbartext h2{
         font-size: 5vw;
+        text-align: center;
     }
     
 }

@@ -3,6 +3,15 @@ import './skills.css'
 import UIDesign from '../../assets/ui-design.png'
 import webDesign from '../../assets/website-design.png'
 import AppDesign from '../../assets/app-design.png'
+import Html from '../../assets/HTML 5.png'
+import cimage from '../../assets/CSS 3.png'
+import jimage from '../../assets/JAVASCRIPT.png'
+import bimage from '../../assets/BOOTSTRAP.png'
+import rimage from '../../assets/React.png'
+
+
+
+
 
 const Skills = () => {
   return (
@@ -14,27 +23,38 @@ const Skills = () => {
           control (Git) and agile workflows, with a focus on writing clean, efficient code for seamless user
            experiences.</span>
            <div className="skillbars">
+           
             <div className="skillbar">
-                <img src={UIDesign} alt="" className="skillbarimg" />
-                <div className="skillbartext">
-                    <h2>UI/UX DESIGN</h2>
-                    <p>This is a Demo text</p>
-                </div>
-            </div>
-            <div className="skillbar">
-                <img src={webDesign} alt="" className="skillbarimg" />
+               
                 <div className="skillbartext">
                     <h2>WEB DESIGN</h2>
-                    <p>This is a Demo text</p>
+                    <p>My Skills</p>
+                    <div className="skillcards">
+                        <div className="card">
+                            <img src={Html} alt="" />
+                            <h3>HTML</h3>
+                        </div>
+                        <div className="card">
+                            <img src={cimage} alt="" />
+                            <h3>CSS</h3>
+                        </div>
+                        <div className="card">
+                            <img src={jimage} alt="" />
+                            <h3>JAVASCRIPT</h3>
+                        </div>
+                        <div className="card">
+                            <img src={bimage} alt="" />
+                            <h3>BOOTSTRAP</h3>
+                        </div>
+                        <div className="card">
+                            <img src={rimage} alt="" />
+                            <h3>REACT</h3>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-            <div className="skillbar">
-                <img src={AppDesign} alt="" className="skillbarimg" />
-                <div className="skillbartext">
-                    <h2>APP DESIGN</h2>
-                    <p>This is a Demo text</p>
-                </div>
-            </div>
+           
            </div>
    </section>
   )
