@@ -4,8 +4,8 @@ import Project1 from '../../assets/Screenshot e.png'
 import project2 from '../../assets/Screenshot M.png'
 import project3 from '../../assets/Screenshot T.png'
 import project4 from '../../assets/Screenshot EB.png'
-import portfolio5 from '../../assets/portfolio-5.png'
-import portfolio6 from '../../assets/portfolio-6.png'
+import project5 from '../../assets/Screenshot Q.png'
+import project6 from '../../assets/Screenshot C.png'
 import Go from '../../assets/go-to.png'
 
 
@@ -51,19 +51,19 @@ const Works = () => {
             </div>
             </div>
             <div className="workimg">
-            <img src={Project1} alt="" className="img" />
+            <img src={project5} alt="" className="img" />
             <hr />
             <div className="txt">
-              <h3>Styles Nest</h3> 
-              <a href="https://styles-nest.vercel.app/"><p>live link at <img className='i' src={Go} alt="" /></p></a>
+              <h3>Quiz Appt</h3> 
+              <a href="https://my-quiz-app-sigma.vercel.app/"><p>live link at <img className='i' src={Go} alt="" /></p></a>
             </div>
             </div>
             <div className="workimg">
-            <img src={Project1} alt="" className="img" />
+            <img src={project6} alt="" className="img" />
             <hr />
             <div className="txt">
-              <h3>Styles Nest</h3> 
-              <a href="https://styles-nest.vercel.app/"><p>live link at <img className='i' src={Go} alt="" /></p></a>
+              <h3>Chat-gpt Clone</h3> 
+              <a href="https://gpt-clone-olive.vercel.app/"><p>live link at <img className='i' src={Go} alt="" /></p></a>
             </div>
             </div>
           </div>
