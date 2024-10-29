@@ -1,0 +1,97 @@
+#works{
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vh;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+}
+.workstitle{
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+.worksdesc{
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 45rem;
+}
+.worksimgs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.workimg{
+    border: 1px solid #fff;
+}
+.img{
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+    display: flex;
+}
+.workbtn{
+    padding: 0.5rem 2.5rem;
+    border: none;
+    background: white;
+    border-radius: 2rem;
+    font-size: 1rem;
+    margin: 3rem 0;
+}
+.txt{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.txt h3{
+    font-weight: 800;
+    margin-left: 10px;
+    color: yellow;
+}
+.txt p{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 350px;
+    
+}
+.i{
+    height: 20px;
+    width: 20px;
+}
+@media screen  and (max-width:585px) {
+  #works{
+    width: 80%;
+  }
+
+    .img {
+        height: 48vw;
+        width: 80%;
+    }
+    .workstitle {
+        font-size: 5vw;
+        text-align: center;
+    }
+    .worksdesc {
+        font-size: 3vw;
+    }
+}
+/*@media screen and (max-width:480px) {
+    .skillbartext p{
+        font-size: 3vw;
+    }
+    .skillbarimg{
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .skillbartext h2{
+        font-size: 5vw;
+        text-align: center;
+    }
+    
+}*/
